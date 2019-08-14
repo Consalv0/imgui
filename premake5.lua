@@ -2,8 +2,8 @@ project "ImGui"
     kind "StaticLib"
     language "C++"
     
-    targetdir ("%{prj.name}/Build/" .. outputdir)
-    objdir ("%{prj.name}/BinObjs/" .. outputdir)
+    targetdir ("Build/" .. outputdir)
+    objdir ("BinObjs/" .. outputdir)
 
     files {
         "imconfig.h",

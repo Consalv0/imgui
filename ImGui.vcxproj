@@ -54,20 +54,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>ImGui\Build\Debug_x86_64\</OutDir>
-    <IntDir>ImGui\BinObjs\Debug_x86_64\</IntDir>
+    <OutDir>Build\Debug_x86_64\</OutDir>
+    <IntDir>BinObjs\Debug_x86_64\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>ImGui\Build\Release_x86_64\</OutDir>
-    <IntDir>ImGui\BinObjs\Release_x86_64\</IntDir>
+    <OutDir>Build\Release_x86_64\</OutDir>
+    <IntDir>BinObjs\Release_x86_64\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
-    <OutDir>ImGui\Build\Shipping_x86_64\</OutDir>
-    <IntDir>ImGui\BinObjs\Shipping_x86_64\</IntDir>
+    <OutDir>Build\Shipping_x86_64\</OutDir>
+    <IntDir>BinObjs\Shipping_x86_64\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
